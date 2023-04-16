@@ -262,7 +262,7 @@ img {
 
 .carousel-control-next {
 	position: absolute;
-	top: 0%;
+	top: 50%;
 	right: -2%;
 	transform: translateY(-50%)
 }
@@ -285,6 +285,11 @@ img {
 
 .partners-logo-container {
   flex-wrap: wrap !important;
+}
+
+.partners-logo-container img {
+	filter: grayscale(100);
+	opacity: 0.5;
 }
 
 /* Section-8 */ 
