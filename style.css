@@ -56,7 +56,8 @@ ul {
 	border-color: #5f60b8 !important;
 }
 .btn-primary:hover {
-  background-color: #4b4c8e !important;
+  background-color: #7c7de4 !important;
+	border-color: transparent !important;
 }
 
 .btn-dark:hover {
@@ -77,6 +78,8 @@ ul {
 }
 
 #main-navbar {
+	transition: padding ease 0.4s,
+							background ease 0.4s;
   z-index: 2;
 }
 
@@ -90,7 +93,6 @@ ul {
 	padding: 0.3em 0 !important;
 	background-color: #ffffffde;
 	backdrop-filter: blur(5px);
-	transition: padding ease 0.4s;
 }
 
 .active-link {
@@ -104,19 +106,24 @@ ul {
   opacity: 0.8;
 }
 
+#hero-section {
+	background: url(images/White\ and\ Purple\ Simple\ Light\ Real\ Estate\ Service\ Website.png) no-repeat; 
+	background-size: 100%; 
+	background-position: center right;
+}
+
 .hero-title {
-  height: 725px !important;
+  height: 700px !important;
 }
 
 /* Search Form Section Style */
 .form-section {
   padding: 0;
-	margin-top: -5%;
 }
 
 .search-form {
 	border-radius: 0.5em;
-	background-color: #8283c2;
+	background-color: #5f60b8c4;
 	color: rgba(114, 122, 133, 0.356);
 }
 
@@ -346,8 +353,7 @@ img {
 	}
 
 	/* General Height Mobile Adjust */
-	#section-4 img, 
-	.card-title,
+	#section-4 img, .card-title,
 	#collapsibleNavbar  ul { 
 		height: auto !important;
 	}
@@ -386,8 +392,8 @@ img {
 
 	.hero-title, 
 	.section-paragraph {
-		padding-top: 0 !important;
-		padding-right: 0 !important;
+			padding-top: 0 !important;
+			padding-right: 0 !important;
 	}
 
 	#section-2 .card-container { 
@@ -417,7 +423,8 @@ img {
 		padding: 0 !important;
 	}
 
-	/* General Margin Mobile Adjust */ 
+	/* General Margin Mobile Adjust */
+	.form-section, 
 	#section-1,
 	#section-2, 
 	#section-3, 
@@ -430,11 +437,6 @@ img {
 	#partner-section, 
 	#main-footer {
 		margin: 1.5em auto 0 auto !important; 
-	}
-
-	.form-section {
-		padding: 0;
-		margin: -10% auto 0 auto;
 	}
 
 	/* Flex Mobile Adjust */
@@ -469,10 +471,6 @@ img {
 	/* Sections Mobile Adjust */  
 	#collapsibleNavbar  ul { 
 		gap: 1em !important; 
-	}
-
-	.hero-title {
-  	height: 75dvh !important;
 	}
 
 	.active-link { 
