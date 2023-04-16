@@ -105,17 +105,18 @@ ul {
 }
 
 .hero-title {
-  height: 650px !important;
+  height: 725px !important;
 }
 
 /* Search Form Section Style */
 .form-section {
   padding: 0;
+	margin-top: -5%;
 }
 
 .search-form {
 	border-radius: 0.5em;
-	background-color: #5f60b8c4;
+	background-color: #8283c2;
 	color: rgba(114, 122, 133, 0.356);
 }
 
@@ -345,7 +346,8 @@ img {
 	}
 
 	/* General Height Mobile Adjust */
-	#section-4 img, .card-title,
+	#section-4 img, 
+	.card-title,
 	#collapsibleNavbar  ul { 
 		height: auto !important;
 	}
@@ -384,8 +386,8 @@ img {
 
 	.hero-title, 
 	.section-paragraph {
-			padding-top: 0 !important;
-			padding-right: 0 !important;
+		padding-top: 0 !important;
+		padding-right: 0 !important;
 	}
 
 	#section-2 .card-container { 
@@ -415,8 +417,7 @@ img {
 		padding: 0 !important;
 	}
 
-	/* General Margin Mobile Adjust */
-	.form-section, 
+	/* General Margin Mobile Adjust */ 
 	#section-1,
 	#section-2, 
 	#section-3, 
@@ -429,6 +430,11 @@ img {
 	#partner-section, 
 	#main-footer {
 		margin: 1.5em auto 0 auto !important; 
+	}
+
+	.form-section {
+		padding: 0;
+		margin: -10% auto 0 auto;
 	}
 
 	/* Flex Mobile Adjust */
@@ -463,6 +469,10 @@ img {
 	/* Sections Mobile Adjust */  
 	#collapsibleNavbar  ul { 
 		gap: 1em !important; 
+	}
+
+	.hero-title {
+  	height: 75dvh !important;
 	}
 
 	.active-link { 
