@@ -108,7 +108,7 @@ ul {
 
 #hero-section {
 	background: url(images/White\ and\ Purple\ Simple\ Light\ Real\ Estate\ Service\ Website.png) no-repeat; 
-	background-size: 100%; 
+	background-size: cover; 
 	background-position: center right;
 }
 
