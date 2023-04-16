@@ -325,6 +325,8 @@ img {
 	#main-footer .section-left div:nth-child(3),
 	.card-slide-container div:nth-child(1),
 	.card-slide-container div:nth-child(3),
+	.carousel-control-next,
+	.carousel-control-prev,
 	.section-background, 
 	.navbar-brand p,
 	.desktop-button { 
